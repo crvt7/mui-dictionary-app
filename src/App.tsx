@@ -1,7 +1,6 @@
 import { Container, CssBaseline, Grid, ThemeProvider } from "@mui/material";
 import Input from "./components/Input";
 import { createTheme } from "@mui/material";
-import "./App.css";
 import DictionaryContextProvider from "./store/context";
 import MainInfoBox from "./components/MainInfoBox";
 const themeDark = createTheme({
